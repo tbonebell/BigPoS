@@ -48,7 +48,8 @@ try {
     <%
 }
 catch (Exception e) {
-    e.printStackTrace();
+    e.printStackTrace(); 
+	out.write(e.getMessage());
 }
 
 
