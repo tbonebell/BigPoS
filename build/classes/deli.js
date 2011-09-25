@@ -135,7 +135,10 @@ $(document).ready(function() {
 	$('#total').click(function() {
 		totalOrder();
 	});
+<<<<<<< HEAD
 	
 	// refactor here:
 	
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 });

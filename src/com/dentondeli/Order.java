@@ -28,6 +28,7 @@ public class Order {
 		order_items = new ArrayList();
 	}
 	
+<<<<<<< HEAD
 	public Order(Date orderTime){
 		orderTime = orderTime;
 		closed = false;
@@ -35,15 +36,20 @@ public class Order {
 		order_items = new ArrayList();
 	}
 	
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	public void addItemToOrder(MenuItem orderItem)
 	{
 		this.order_items.add(orderItem);
 	}
 	
+<<<<<<< HEAD
 	public ArrayList getOrderItems()
 	{
 		return this.order_items;
 	}
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	private void addTax()
 	{
 		double d = this.subTotal*(1+this.tax);

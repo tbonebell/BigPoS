@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/Jeff/Documents/Deli Dev/tbonebell-BigPoS-120bb41/WebContent/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+=======
+	<classpathentry exported="true" kind="lib" path="C:/Users/DeliPOS/workspace/BigPoS/WebContent/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
@@ -14,6 +19,9 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

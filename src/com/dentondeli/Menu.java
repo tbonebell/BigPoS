@@ -2,8 +2,11 @@ package com.dentondeli;
 import java.sql.*;
 import java.util.*;
 
+<<<<<<< HEAD
 import org.apache.tomcat.util.json.JSONObject;
 
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 
 public class Menu {
 
@@ -32,6 +35,7 @@ public class Menu {
 		
 		return items;
 	}
+<<<<<<< HEAD
 	
 	public String jsonMenu() throws Exception
 	{
@@ -56,5 +60,7 @@ public class Menu {
 			return e.toString();
 		}
 	}
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 }
 

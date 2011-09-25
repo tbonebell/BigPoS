@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 	var tax_rate = 8.25;
+<<<<<<< HEAD
 	function order_item(id,name,price){
 		this.id = id;
 		this.name = name;
@@ -11,6 +12,9 @@ $(document).ready(function() {
 	};
 	current_order = new order_list();
 	
+=======
+	current_order = new order_list();
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	function clearOrder() {
 		$('#tags')
 		.find('li')
@@ -21,9 +25,12 @@ $(document).ready(function() {
 		$('#dollar_discount').val(0);
 		displayOrder();
 	};
+<<<<<<< HEAD
 	
 	// use server side function instead
 	/*
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	function applyPercentageDiscount(percentage) {
 		// applies discount evenly to all menu items...
 		for (i=0;i<current_order.items.length;i++)
@@ -32,10 +39,13 @@ $(document).ready(function() {
 		}
 		displayOrder();
 	};
+<<<<<<< HEAD
 	*/
 	
 	// use server side function instead
 	/*
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	function applyDollarDiscount(amountInPennies)
 	{
 		// applies discount evenly to all menu items...
@@ -46,8 +56,11 @@ $(document).ready(function() {
 		}
 		displayOrder();
 	};
+<<<<<<< HEAD
 	
 	*/
+=======
+>>>>>>> 120bb415237972e776cba0d65d7e81bd0f949168
 	function writeToDB()
 	{
 		// create an xml string for posting
