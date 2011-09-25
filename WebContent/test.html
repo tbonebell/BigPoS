@@ -1,0 +1,39 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Killer Food Ordered Here!</title>
+<link href="css/main_style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+<script src="js/deli.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+Deli Ordering System
+<hr>
+<script>
+function order_list(){
+	this.items = [];
+};
+
+function order_item(id,name,price){
+	this.id = id;
+	this.name = name;
+	this.price = price;
+};
+
+current_order = new order_list();
+
+current_order.items[current_order.items.length] = new order_item(1,"Sandwich",350);
+
+for(i in current_order.items)
+	{
+		alert(current_order.items[i].name);
+	};
+</script>
+
+</div>
+</body>
+</html>
+ 
